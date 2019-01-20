@@ -1,1 +1,5 @@
  Java Development Kit (JDK)  installed on your computer
+ If you aren't able to make it run. will add a jar file where you can run it.
+ if you are on windows and you have JDK installed, you will just run it.
+ if you are on UNIX (Mac/Linux), just go to the terminal and run it using the command 'java -jar <file location>
+
