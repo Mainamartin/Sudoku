@@ -22,7 +22,7 @@ public class author extends JFrame{
         
         
         pic =  new JLabel();
-        pic.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Author/Author.png"))); // NOI18N
+        pic.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Author/Author.png"))); 
         pic.setBounds(20, 42, 200, 200);
         
         Head = new JLabel("Martin Maina");
@@ -33,15 +33,9 @@ public class author extends JFrame{
         
         
         about = new JTextArea();
-        about.setText("Yes. He is. I mean I am. Wait. \n"
-                + " What? Yeah. Lets talk about that guy. \n"
-                + "Martin is a Computer Science scholar\n"
-                + "He loves programming for fun and of \ncourse"
-                + " making something meaningful.\n"
-                + "If you want to know more about him, \n"
-                + "contact him via \n"
-                + "mail m0Lzixs3m0qy@gmail.com\n"
-                + "Tel  +2547902488675");
+        about.setText("Martin loves programming for fun and of \ncourse"
+                + " making something meaningful.\n Get to him? : mail martinmaina806@gmail.com"
+                );
         about.setEditable(false);
         about.setBackground(Classes.lightGray);
         about.setForeground(Classes.black);
