@@ -27,7 +27,7 @@ public class author extends JFrame{
         
         Head = new JLabel("Martin Maina");
         Head.setBounds(10, 0, 200, 40);
-        Head.setForeground(Classes.green);
+        Head.setForeground(Classes.red);
         Head.setFont(Classes.handwritinghead);
         Head.setBorder(Classes.labelBorder);
         
