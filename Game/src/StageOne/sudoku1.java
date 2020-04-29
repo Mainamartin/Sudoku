@@ -658,14 +658,11 @@ public class sudoku1 extends JFrame{
 		
 		PLAY();
 		
-		
-		
 		java.awt.Toolkit toolkit = getToolkit();
 		Dimension size = toolkit.getScreenSize();
 		setLocation(size.width/2 - getWidth()/2, size.height/2 - getHeight()/2);
 		setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 		setVisible(true);
-		
 		
 	}
 	
@@ -890,8 +887,7 @@ public class sudoku1 extends JFrame{
 		dispose();
                 new sudoku20();
 	}
-
-	private void s3lev1(ActionEvent evt) {
+        private void s3lev1(ActionEvent evt) {
 		dispose();
                 new sudoku21();
 	}
